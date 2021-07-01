@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=YXPyB4XeYLA
 - [x] Intro to Tkinter
 - [x] Positioning With Tkinter's Grid System
 - [x] Creating Buttons
-- [ ] Creating Input Fields
+- [x] Creating Input Fields
 - [ ] Build A Simple Calculator App
 - [ ] Using Icons, Images, and Exit Buttons
 - [ ] Build an Image Viewer App
