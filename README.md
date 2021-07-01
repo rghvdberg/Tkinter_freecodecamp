@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=YXPyB4XeYLA
 - [x] Positioning With Tkinter's Grid System
 - [x] Creating Buttons
 - [x] Creating Input Fields
-- [ ] Build A Simple Calculator App
+- [x] Build A Simple Calculator App
 - [ ] Using Icons, Images, and Exit Buttons
 - [ ] Build an Image Viewer App
 - [ ] Adding A Status Bar
