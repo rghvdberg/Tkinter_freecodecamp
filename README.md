@@ -10,8 +10,9 @@ https://www.youtube.com/watch?v=YXPyB4XeYLA
 - [x] Creating Input Fields
 - [x] Build A Simple Calculator App
 - [x] Using Icons, Images, and Exit Buttons
-  - _note icon code wouldn't work, needs some extra stuff on linux and I didn't bother_
-- [ ] Build an Image Viewer App
+  - _note: icon code wouldn't work, needs some extra stuff on linux and I didn't bother_
+- [x] Build an Image Viewer App
+  - note: my own implementation, I may regret this later on ;-)
 - [ ] Adding A Status Bar
 - [ ] Adding Frames To Your Program
 - [ ] Radio Buttons
