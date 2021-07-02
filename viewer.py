@@ -46,8 +46,8 @@ my_img5 = ImageTk.PhotoImage(Image.open("images/luigi2.jpg"))
 image_list = [my_img1, my_img2, my_img3, my_img4, my_img5]
 my_label = Label(image=image_list[image_index])
 
-button_back = Button(root, text="Prev", command=back)
-button_forward = Button(root, text="Next", command=forward)
+button_back = Button(root, text="<<", command=back)
+button_forward = Button(root, text=">>", command=forward)
 button_quit = Button(root, text="Exit Program", command=root.quit)
 
 my_label.grid(column=0, row=0, columnspan=2)
