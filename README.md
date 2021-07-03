@@ -13,7 +13,8 @@ https://www.youtube.com/watch?v=YXPyB4XeYLA
   - _note: icon code wouldn't work, needs some extra stuff on linux and I didn't bother_
 - [x] Build an Image Viewer App
   - note: my own implementation, I may regret this later on ;-)
-- [ ] Adding A Status Bar
+- [x] Adding A Status Bar
+  - note: again own implementation
 - [ ] Adding Frames To Your Program
 - [ ] Radio Buttons
 - [ ] Message Boxes
