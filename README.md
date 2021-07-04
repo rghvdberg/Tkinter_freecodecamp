@@ -2,7 +2,7 @@
 
 ## freeCodeCamp.org
 
-https://www.youtube.com/watch?v=YXPyB4XeYLA  
+<https://www.youtube.com/watch?v=YXPyB4XeYLA>  
 
 - [x] Intro to Tkinter
 - [x] Positioning With Tkinter's Grid System
@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=YXPyB4XeYLA
   - note: my own implementation, I may regret this later on ;-)
 - [x] Adding A Status Bar
   - note: again own implementation
-- [ ] Adding Frames To Your Program
+- [x] Adding Frames To Your Program
 - [ ] Radio Buttons
 - [ ] Message Boxes
 - [ ] Create New Windows in tKinter
