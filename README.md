@@ -19,7 +19,7 @@
 - [x] Radio Buttons
 - [x] Message Boxes
 - [x] Create New Windows in tKinter
-- [ ] Open Files Dialog Box
+- [x] Open Files Dialog Box
 - [ ] Sliders
 - [ ] Checkboxes
 - [ ] Dropdown Menus
