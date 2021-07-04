@@ -18,7 +18,7 @@
 - [x] Adding Frames To Your Program
 - [x] Radio Buttons
 - [x] Message Boxes
-- [ ] Create New Windows in tKinter
+- [x] Create New Windows in tKinter
 - [ ] Open Files Dialog Box
 - [ ] Sliders
 - [ ] Checkboxes
