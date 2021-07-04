@@ -16,7 +16,7 @@
 - [x] Adding A Status Bar
   - note: again own implementation
 - [x] Adding Frames To Your Program
-- [ ] Radio Buttons
+- [x] Radio Buttons
 - [ ] Message Boxes
 - [ ] Create New Windows in tKinter
 - [ ] Open Files Dialog Box
