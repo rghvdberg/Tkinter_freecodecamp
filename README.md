@@ -20,7 +20,7 @@
 - [x] Message Boxes
 - [x] Create New Windows in tKinter
 - [x] Open Files Dialog Box
-- [ ] Sliders
+- [x] Sliders
 - [ ] Checkboxes
 - [ ] Dropdown Menus
 - [ ] Using Databases
