@@ -17,7 +17,7 @@
   - note: again own implementation
 - [x] Adding Frames To Your Program
 - [x] Radio Buttons
-- [ ] Message Boxes
+- [x] Message Boxes
 - [ ] Create New Windows in tKinter
 - [ ] Open Files Dialog Box
 - [ ] Sliders
