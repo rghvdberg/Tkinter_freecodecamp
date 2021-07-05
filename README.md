@@ -21,7 +21,7 @@
 - [x] Create New Windows in tKinter
 - [x] Open Files Dialog Box
 - [x] Sliders
-- [ ] Checkboxes
+- [x] Checkboxes
 - [ ] Dropdown Menus
 - [ ] Using Databases
 - [ ] Building Out The GUI for our Database App
