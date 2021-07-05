@@ -22,7 +22,9 @@
 13. &#9746; Open Files Dialog Box
 14. &#9746; Sliders
 15. &#9746; Checkboxes
-16. &#9744; Dropdown Menus
+16. &#9746; Dropdown Menus  
+  _check line 24, curious use of `lambda`_  
+  `drop = OptionMenu(root, my_var, *my_options, command=lambda text:show_selection(text))` [found here](https://github.com/furas/python-examples/blob/master/tkinter/optionmenu/example-3-many-optionmenu-command-lambda.py)
 17. &#9744; Using Databases
 18. &#9744; Building Out The GUI for our Database App
 19. &#9744; Delete A Record From Our Database
