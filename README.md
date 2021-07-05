@@ -10,11 +10,11 @@
 4. &#9746; Creating Input Fields
 5. &#9746; Build A Simple Calculator App
 6. &#9746; Using Icons, Images, and Exit Buttons  
- _note: icon code wouldn't work, needs some extra stuff on linux and I didn't bother_
+ _icon code wouldn't work, needs some extra stuff on linux and I didn't bother_
 7. &#9746; Build an Image Viewer App  
-7.1 note: my own implementation, I may regret this later on ;-)
+ _my own implementation, I may regret this later on :grin:_
 8. &#9746; Adding A Status Bar  
- _note: again own implementation_
+ _again own implementation_
 9. &#9746; Adding Frames To Your Program
 10. &#9746; Radio Buttons
 11. &#9746; Message Boxes
