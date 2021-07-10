@@ -28,7 +28,7 @@
 17. &#9746; Using Databases
 18. &#9746; Building Out The GUI for our Database App
 19. &#9746; Delete A Record From Our Database
-20. &#9744; Update A Record With SQLite
+20. &#9746; Update A Record With SQLite
 21. &#9744; Build a Weather App
 22. &#9744; Change Colors In our Weather App
 23. &#9744; Add Zipcode Lookup Form
