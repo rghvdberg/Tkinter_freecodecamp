@@ -1,17 +1,19 @@
 # 17 - Using Databases
+# 18 - Building Out The GUI for our Database App
+# 19 - Delete A Record From Our Database
 
 from tkinter import *
 import sqlite3
 
 root = Tk()
-root.geometry("400x400")
+root.geometry("800x600")
 root.title("Using Databases")
 
 # Create a database or connect to one
-conn = sqlite3.connect('address_book.db')
+#conn = sqlite3.connect('address_book.db')
 
 # Create cursor
-c = conn.cursor()
+#c = conn.cursor()
 
 # # Create table
 # c.execute("""CREATE TABLE addresses (
@@ -22,6 +24,16 @@ c = conn.cursor()
 #     state text,
 #     zipcode text
 #     )""")
+
+# Delete a record
+
+
+def delete():
+    conn = sqlite3.connect('address_book.db')
+    c = conn.cursor()
+    c.execute("DELETE from addresses WHERE oid="+delete_box.get())
+    conn.commit()
+    conn.close()
 
 
 def submit():
@@ -37,7 +49,6 @@ def submit():
                   'state': state.get(),
                   'zipcode': zipcode.get()
               })
-
     conn.commit()
     # Close Connection
     conn.close()
@@ -58,7 +69,7 @@ def query():
     records = c.fetchall()
     # print(records)
 
-    # Loop through resultsj
+    # Loop through results
     print_records = ''
     for record in records:
         for item in record:
@@ -66,14 +77,15 @@ def query():
         print_records += "\n"
 
     query_label = Label(root, text=print_records)
-    query_label.grid(column=0, row=8, columnspan=2)
+    query_label.grid(column=0, row=11, columnspan=2)
 
     conn.commit()
     # Close Connection
     conn.close()
     # Clear Text Boxes
 
-    # Create Text Boxes
+
+ # Create Text Boxes
 f_name = Entry(root, width=30)
 f_name.grid(row=0, column=1, padx=20)
 l_name = Entry(root, width=30)
@@ -86,6 +98,9 @@ state = Entry(root, width=30)
 state.grid(row=4, column=1)
 zipcode = Entry(root, width=30)
 zipcode.grid(row=5, column=1)
+
+delete_box = Entry(root, width=38)
+delete_box.grid(row=9, column=1)
 
 # Create Text Box Labels
 f_name_label = Label(root, text="First Name")
@@ -100,6 +115,8 @@ state_label = Label(root, text="State")
 state_label.grid(row=4, column=0)
 zipcode_label = Label(root, text="Zipcode")
 zipcode_label.grid(row=5, column=0)
+delete_label = Label(root, text="Delete ID")
+delete_label.grid(row=9, column=0)
 
 # Create Submit Button
 submit_button = Button(root, text="Add record", command=submit)
@@ -107,12 +124,16 @@ submit_button.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)
 
 # Create a Query Button
 query_btn = Button(root, text="Show Records", command=query)
-query_btn.grid(row=7, column=0, columnspan=2, padx=10, pady=10, ipadx=100)
+query_btn.grid(row=7, column=0, columnspan=2, padx=10, pady=10, ipadx=90)
+
+# Create a Delete Button
+delete_btn = Button(root, text="Delete Record", command=delete)
+delete_btn.grid(row=10, column=0, columnspan=2, padx=10, pady=10, ipadx=90)
 
 # Commit Changes
-conn.commit()
+#conn.commit()
 
 # Close Connection
-conn.close()
+#conn.close()
 
 root.mainloop()
