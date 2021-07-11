@@ -29,7 +29,7 @@
 18. &#9746; Building Out The GUI for our Database App
 19. &#9746; Delete A Record From Our Database
 20. &#9746; Update A Record With SQLite
-21. &#9744; Build a Weather App
+21. &#9746; Build a Weather App
 22. &#9744; Change Colors In our Weather App
 23. &#9744; Add Zipcode Lookup Form
 24. &#9744; Matplotlib Charts
