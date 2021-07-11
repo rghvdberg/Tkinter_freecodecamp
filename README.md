@@ -33,4 +33,4 @@
 22. &#9746; Change Colors In our Weather App  
     _using list with color codes_
 23. &#9746; Add Zipcode Lookup Form
-24. &#9744; Matplotlib Charts
+24. &#9746; Matplotlib Charts
